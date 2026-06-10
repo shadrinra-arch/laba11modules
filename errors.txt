@@ -1,0 +1,6 @@
+Серьезность	Код	Описание	Проект	Файл	Строка	Состояние подавления	Подробности
+Ошибка (активно)	MC3050	не удается найти тип "vms:ContactsListViewModel". Имена типов вводятся с учетом регистра букв. Строка 10 позиция 23.	laba9modules	D:\sharaGO\laba10modules-master\App.xaml	10		
+Ошибка	XDG0008	Имя "ContactsListViewModel" не существует в пространстве имен "clr-namespace:laba9modules.ViewModels;assembly=laba9modules".	laba9modules	D:\sharaGO\laba10modules-master\App.xaml	9		
+Ошибка	XDG0008	Имя "ContactsListView" не существует в пространстве имен "clr-namespace:laba9modules.Views;assembly=laba9modules".	laba9modules	D:\sharaGO\laba10modules-master\App.xaml	10		
+Ошибка	XDG0008	Имя "AboutViewModel" не существует в пространстве имен "clr-namespace:laba9modules.ViewModels;assembly=laba9modules".	laba9modules	D:\sharaGO\laba10modules-master\App.xaml	13		
+Ошибка	XDG0008	Имя "AboutView" не существует в пространстве имен "clr-namespace:laba9modules.Views;assembly=laba9modules".	laba9modules	D:\sharaGO\laba10modules-master\App.xaml	14		
