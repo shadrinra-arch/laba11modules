@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace laba9modules.Models
+namespace laba9modules
 {
     public class Contact : INotifyPropertyChanged
     {

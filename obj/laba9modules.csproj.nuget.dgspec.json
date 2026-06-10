@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\sharaGO\\laba10modules-master\\laba9modules.csproj": {}
+    "D:\\sharaGO\\laba11modules\\laba9modules.csproj": {}
   },
   "projects": {
-    "D:\\sharaGO\\laba10modules-master\\laba9modules.csproj": {
+    "D:\\sharaGO\\laba11modules\\laba9modules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\sharaGO\\laba10modules-master\\laba9modules.csproj",
+        "projectUniqueName": "D:\\sharaGO\\laba11modules\\laba9modules.csproj",
         "projectName": "laba9modules",
-        "projectPath": "D:\\sharaGO\\laba10modules-master\\laba9modules.csproj",
+        "projectPath": "D:\\sharaGO\\laba11modules\\laba9modules.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\sharaGO\\laba10modules-master\\obj\\",
+        "outputPath": "D:\\sharaGO\\laba11modules\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -3,14 +3,14 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Windows;
-using laba9modules.Models;
+using laba9modules;
 using System.Runtime.CompilerServices; // Это обязательно для [CallerMemberName]
 using laba9modules.Services;
 
 
 namespace laba9modules.ViewModels
 {
-    public class MainViewModel : INotifyPropertyChanged
+    public class ContactsListViewModel : INotifyPropertyChanged
     {
         // Список контактов с авто-обновлением UI
         private readonly IDialogService _dialogService;
@@ -50,7 +50,10 @@ namespace laba9modules.ViewModels
         //    // DeleteCommand с параметром (выбранный контакт из списка)
         //    DeleteCommand = new RelayCommand(obj => DeleteContact(obj as Contact), obj => obj is Contact);
         //}
-        public MainViewModel(IDialogService dialogService)
+        public ContactsListViewModel() : this(new DialogService())
+        {
+        }
+        public ContactsListViewModel(IDialogService dialogService)
         {
             _dialogService = dialogService;
             AddCommand = new RelayCommand(obj => AddContact(), obj => Validate());
